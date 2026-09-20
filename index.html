@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="भारत विश्लेषण — खबरों, नीतियों और अर्थव्यवस्था को तथ्यों और आंकड़ों के साथ समझने का मंच।">
+<title>भारत विश्लेषण — सही नहीं... आंकड़ों से विश्लेषण।</title>
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="index.html">
+    <img src="images/logo.png" alt="भारत विश्लेषण लोगो">
+    <div><b>BHARAT <span>VISHLESHAN</span></b><small>सही नहीं... आंकड़ों से विश्लेषण।</small></div>
+  </a>
+  <div class="actions">
+    <button aria-label="Search" onclick="toggleSearch()">⌕</button>
+    <button aria-label="Menu" onclick="toggleMenu()">☰</button>
+  </div>
+</header>
+
+<div id="search" class="search"><input id="q" oninput="searchArticles()" placeholder="खबर या विषय खोजें..." autocomplete="off"></div>
+<nav id="menu" class="menu">
+  <a href="index.html">होम</a>
+  <a href="#categories">Categories</a>
+  <a href="#articles">Articles</a>
+  <a href="#videos">Videos</a>
+  <a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">YouTube</a>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">DATA • INDIA • ANALYSIS</div>
+    <h1>हर खबर के पीछे<br><span>आंकड़ों की कहानी।</span></h1>
+    <p>खबरों, नीतियों और अर्थव्यवस्था को सरल भाषा में — context, numbers और clear explainers के साथ समझिए।</p>
+    <div class="hero-btns">
+      <a class="primary" href="#videos">▶ &nbsp; Latest Videos</a>
+      <a class="secondary" href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">YouTube देखें →</a>
+    </div>
+    <div class="tags"><span>#India</span><span>#Politics</span><span>#Economy</span><span>#Analysis</span><span>#BharatVishleshan</span></div>
+  </div>
+  <div class="hero-art"><img src="images/hero.jpg" alt="भारत और आंकड़ों से जुड़ा चित्र"></div>
+</section>
+
+<section id="categories" class="section">
+  <div class="section-title"><div><label>EXPLORE CATEGORIES</label><h2>सभी Categories</h2></div><a href="#articles">सभी देखें →</a></div>
+  <div class="cats">
+    <a class="cat india" href="pages/india.html"><i>▥</i><strong>India</strong><small>देश से जुड़े data explainers</small><b>→</b></a>
+    <a class="cat politics" href="pages/politics.html"><i>♜</i><strong>Politics</strong><small>राजनीति और नीतियों का विश्लेषण</small><b>→</b></a>
+    <a class="cat banking" href="pages/banking.html"><i>₹</i><strong>Banking</strong><small>Banking, UPI & digital payments</small><b>→</b></a>
+    <a class="cat business" href="pages/business.html"><i>▣</i><strong>Business</strong><small>Business & entrepreneurship</small><b>→</b></a>
+    <a class="cat tax" href="pages/tax-economy.html"><i>▤</i><strong>Tax & Economy</strong><small>Tax और economy explainers</small><b>→</b></a>
+    <a class="cat analysis" href="pages/analysis.html"><i>↗</i><strong>Analysis</strong><small>डेटा और facts के साथ explainers</small><b>→</b></a>
+  </div>
+</section>
+
+<section id="articles" class="section">
+  <div class="section-title"><div><label>READ</label><h2>Latest Articles</h2></div></div>
+  <div id="grid" class="articles">
+    <noscript><p>Articles देखने के लिए JavaScript चालू करें।</p></noscript>
+  </div>
+</section>
+
+<section id="videos" class="section">
+  <div class="section-title"><div><label>WATCH</label><h2>Latest Videos</h2></div><a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">YouTube चैनल →</a></div>
+  <a class="video" href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">
+    <img src="images/thumbnails/channel.png" alt="भारत विश्लेषण YouTube चैनल">
+    <div><h3>भारत विश्लेषण — YouTube पर नवीनतम वीडियो</h3><p>खबरों, नीतियों और आंकड़ों का सरल हिंदी विश्लेषण।</p><p class="video-link">▶ YouTube चैनल खोलें</p></div>
+    <b>↗</b>
+  </a>
+</section>
+
+<section class="subscribe">
+  <div><span>▶</span><div><strong>हमारे YouTube चैनल को Subscribe करें</strong><small>ताज़ा वीडियो, data explainers और जरूरी अपडेट्स के लिए।</small></div></div>
+  <a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">🔔 Subscribe करें</a>
+</section>
+</main>
+
+<footer>© Bharat Vishleshan — सही नहीं... आंकड़ों से विश्लेषण।</footer>
+<script src="script.js"></script>
+</body>
+</html>
