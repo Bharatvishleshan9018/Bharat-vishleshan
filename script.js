@@ -17,7 +17,7 @@ function render(items=data){
         <small>${a[0]}</small>
         <h3>${a[1]}</h3>
         <p>${a[2]}</p>
-        <a class="read" href="pages/${a[3]}">पूरा पढ़ें →</a>
+        <a class="read" href="${a[3]}">पूरा पढ़ें →</a>
       </div>
     </article>`).join("") : '<div class="empty">इस विषय से जुड़ा कोई article नहीं मिला।</div>';
 }
